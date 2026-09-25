@@ -16,6 +16,15 @@ My first AI agent built using Google's Agent Development Kit (ADK) and Gemini.
 - Running an agent using the ADK CLI
 - Running the agent using the ADK Web UI
 
+Project Structure
+
+my_agent/
+├── .env
+├── .gitignore
+├── __init__.py
+└── agent.py
+
+
 ## Run Locally
 
 Create and activate a virtual environment:
@@ -24,9 +33,3 @@ Create and activate a virtual environment:
 python -m venv .venv
 
 
-Project Structure
-my_agent/
-├── .env
-├── .gitignore
-├── __init__.py
-└── agent.py
